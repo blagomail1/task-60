@@ -27,3 +27,38 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu a {
+  margin-left: 1rem;
+}
+
+.navbar-burger {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-burger span {
+  display: block;
+  width: 2rem;
+  height: 0.2rem;
+  margin-bottom: 0.3rem;
+  background-color: #333;
+  border-radius: 0.3rem;
+}
